@@ -13,9 +13,9 @@ public class MysqlConnection {
 	
 	private Connection connection;
 	private Properties properties;
-	private String url = "jdbc:mysql://localhost:3306/javabase";
-	private String username = "java";
-	private String password = "password";
+	private String url = "jdbc:mysql://127.0.0.1:3306/test";
+	private String username = "root";
+	private String password = "16399356";
 	private String MAX_POOL = "250";
 	
 	static Logger log = Logger.getLogger(HelloRS.class.getName());
